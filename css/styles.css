@@ -140,14 +140,14 @@ input::placeholder {
 }
 
 .right .post-simulation h3{
-    color: #202d37;
+    color: #ffffff;
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 40px;
 }
 
 .right .post-simulation h3 span{
-    color: #264653;
+    color: #fff;
     font-weight: 600;
     font-size: 24px;
 }
@@ -159,15 +159,18 @@ input::placeholder {
 
 .right .total h4{
     font-size: 28px;
+    color: #fff;
 }
 
 .right .total h2{
     font-size: 36px;
     padding: 14px 0;
+    color: #fff;
 }
 
 .total p{
     font-weight: 400;
+    color: #fff;
 }
 
 .total p span{
