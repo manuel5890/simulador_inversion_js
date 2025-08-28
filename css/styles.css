@@ -140,14 +140,14 @@ input::placeholder {
 }
 
 .right .post-simulation h3{
-    color: #ffffff;
+    color: #264653;
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 40px;
 }
 
 .right .post-simulation h3 span{
-    color: #fff;
+    color: #264653;
     font-weight: 600;
     font-size: 24px;
 }
