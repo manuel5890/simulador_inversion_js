@@ -20,6 +20,12 @@ function simulador(){
     let ganancia = 0
     let total = 0
 
+    if (cFullname == "" || cEmail == "" ||  cInversion == "" || cTiempo == ""){
+        alert('llene todos los campos papi');
+    }
+
+    else{
+
     switch (cTiempo) {
         //en este case realizaremos el calculo si el tiempo corresponde a un año
         case "1":
@@ -45,7 +51,9 @@ function simulador(){
             sTiempo.textContent = '36 MESES';            
         break;
     }
+}
 
+    
     sTotal.textContent= total;
     sGanacia.textContent= ganancia;
     sNombres.textContent= cFullname;
